@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06e1ce21-3d69-4643-aaee-9e8259d0941d" name="Changes" comment="added CustomExeptiom for HW 14.1">
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_group.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_human.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class_student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom_errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="06e1ce21-3d69-4643-aaee-9e8259d0941d" name="Changes" comment="HW 14.2: divided on file classes, edd custom __eq__">
+      <change afterPath="$PROJECT_DIR$/archevator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13.1.py" beforeDir="false" afterPath="$PROJECT_DIR$/13.1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_group.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_human.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/class_student.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,9 @@
   "keyToString": {
     "Python.13.1.executor": "Run",
     "Python.13.2.executor": "Run",
+    "Python.archevator.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.zipfile.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/viach/Documents/IT_courses/Python/Projects/hw_13"
@@ -108,11 +109,20 @@
       <option name="project" value="LOCAL" />
       <updated>1725555167592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW 14.2: divided on file classes, edd custom __eq__">
+      <option name="closed" value="true" />
+      <created>1725619958745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725619958745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added CustomExeptiom for HW 14.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="added CustomExeptiom for HW 14.1" />
+    <MESSAGE value="HW 14.2: divided on file classes, edd custom __eq__" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 14.2: divided on file classes, edd custom __eq__" />
   </component>
 </project>

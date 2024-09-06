@@ -1,3 +1,7 @@
+import sys
+sys.path.insert(0, 'modules.zip')
+
+
 from custom_errors import OverCrowderError
 from class_student import Student
 from class_group import Group
