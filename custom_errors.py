@@ -1,0 +1,2 @@
+class OverCrowderError(Exception):
+    pass

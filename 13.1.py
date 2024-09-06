@@ -38,6 +38,12 @@ class Student(Human):
             f'Records: {self.record_book}\n'
         )
 
+    def __hash__(self):
+        return hash(str(self))
+
+    def __eq__(self, other):
+        return self.age == other.age and self.gender == other.gender
+
 
 class Group:
 
@@ -74,6 +80,7 @@ st1 = Student('Male', 30, 'Steve', 'Jobs', 'AN142')
 st2 = Student('Female', 25, 'Liza', 'Taylor', 'AN145')
 st3 = Student('Male', 20, 'John', 'Doe', 'AN150')
 gr = Group('PD1')
+print(f'st1 = st2? - {st1 == st2}')
 try:
     gr.add_student(st1)
     gr.add_student(st2)
